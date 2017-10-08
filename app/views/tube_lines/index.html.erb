@@ -1,5 +1,6 @@
 <div class="container">
   <h1>Tube Lines</h1>
+  <p>See how this was made <a href="https://github.com/svpersteve/tube-status">here</a>.</p>
   <% @tube_lines.each do |line| %>
     <h2><%= line['name'] %></h2>
     <% line['lineStatuses'].each do |status| %>
