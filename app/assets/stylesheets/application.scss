@@ -1,3 +1,91 @@
 /*
  *= require_self
  */
+
+$header-font: 'Ubuntu';
+$body-font: 'Montserrat';
+$code-font: 'Inconsolata';
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: lighter;
+  font-weight: 300;
+  src: font-url('Montserrat-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: font-url('Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: bold;
+  font-weight: 700;
+  src: font-url('Montserrat-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: font-url('Ubuntu-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 400;
+  src: font-url('Ubuntu-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: bold;
+  font-weight: 700;
+  src: font-url('Ubuntu-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: font-url('Inconsolata-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: bold;
+  font-weight: 700;
+  src: font-url('Inconsolata-Bold.ttf');
+}
+
+body {
+  line-height: 1.45;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $header-font;
+  font-weight: normal;
+}
+
+p,
+a,
+input,
+ul,
+li,
+label,
+div {
+  font-family: $body-font;
+  font-weight: lighter;
+  line-height: 1.45;
+}
+
+.container {
+  max-width: 60%;
+  margin: 10px auto;
+}
