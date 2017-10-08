@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>Tube Lines</h1>
+  <% @tube_lines.each do |line| %>
+    <h2><%= line['name'] %></h2>
+    <% line['lineStatuses'].each do |status| %>
+      <h3><%= status['statusSeverityDescription'] %></h3>
+      <p><%= status['reason'] %></p>
+    <% end %>
+  <% end %>
+</div>
