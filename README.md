@@ -1,24 +1,7 @@
-# README
+## Tube Status
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the Rails version of the app we're making in the West London Coders Python Deep Dive.
 
-Things you may want to cover:
+Details [here](https://docs.google.com/document/d/1-eURyr_wos1BJfbdL_7pymQTg9nagLi7t3SoG8rvH3o/edit?usp=sharing).
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Join us [here](https://www.meetup.com/preview/West-London-Coders).
